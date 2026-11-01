@@ -1,0 +1,5 @@
+# CV Analyzer - Stage 1 dependencies (all lightweight, pure Python)
+streamlit>=1.32,<2.0     # web UI framework
+pypdf>=4.0               # PDF text extraction (pure Python, no system libraries)
+python-docx>=1.1         # DOCX text extraction
+pandas>=2.0              # tables and charts (already a Streamlit dependency)
